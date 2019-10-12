@@ -21,16 +21,8 @@ public class MainPagerAdapter extends FragmentStatePagerAdapter {
     //This method return the fragment for the every position in the View Pager
     @Override
     public Fragment getItem(int position) {
+        return new DefaultLayoutIntro();
 
-        if (position == 0) { // if the position is 0 we are returning the First tab
-            return new DefaultLayoutIntro();
-        } else if (position == 1) {
-            return new DefaultLayout2Intro();
-        } else if (position == 2) {
-            return new CustomLayoutIntro();
-        } else {
-            return new CustomBackgroundIntro();
-        }
     }
 
     @Override

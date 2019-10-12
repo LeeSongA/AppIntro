@@ -18,8 +18,8 @@ public class MainTabsFragment extends Fragment {
     ViewPager pager;
     MainPagerAdapter adapter;
     TabLayout tabs;
-    CharSequence Titles[] = {"Layout 1", "Layout 2", "Custom Layout", "Custom Background"};
-    int Numboftabs = 4;
+    CharSequence Titles[] = {"Intro"};
+    int Numboftabs = 1;
 
     public MainTabsFragment() {
         //required empty constructor
